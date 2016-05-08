@@ -1,4 +1,4 @@
 #Python
-## Basic on python
+## Basics on python
 
 
