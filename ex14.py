@@ -1,9 +1,10 @@
+#imports the feature argument
 from sys import argv
-
+#the variables are packed in the argv module
 script, dictionaries.py = argv
-
+#opens the file
 txt = open(dictionaries.py)
-
+#print out the file
 print "here's your file %r:" % dictionaries.py
 print txt.read()
 
