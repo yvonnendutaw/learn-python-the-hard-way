@@ -3,9 +3,10 @@ binary = "binary"
 do_not = "don't"
 y = "Those who know %s and those who %s." % (binary, do_not)
 
+#prints what is stored in x
 print x
 print y
-
+# % is a formatter used for diplaying
 print "I said: %r." % x
 print "I also said: '%s'." % y
 hilarious = False

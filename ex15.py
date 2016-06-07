@@ -1,6 +1,6 @@
 from sys import argv
 
-script, dictionaries.py = argv
+script, filename = argv
 
 print "We're going to erase %r." % filename
 print "If you don't want that, hit CTRL-C ."
@@ -9,11 +9,13 @@ print "If you do want that, hit RETURN."
 raw_input("?")
 
 print "Opening the file..."
-target = open(dictionaries.py, 'w')
-
-print "Truncating the file.
-target.truncate() Goodbye!"
-
+#'w' denotes that we are writing the file
+# one can use 'r' too which denotes that we are just reading the file.
+target = open(filename, 'w')
+#deleting the file
+print "Truncating the file. Goodbye!"
+target.truncate()
+#changing the content in the file
 print "Now I'm going to ask you for three lines."
 #what will be written in the file
 line1 = raw_input("line 1: ")
@@ -27,5 +29,6 @@ target.write(line2)
 target.write("\n")
 target.write(line3)
 target.write("\n")
+#closing the file
 print "And finally, we close it."
 target.close()

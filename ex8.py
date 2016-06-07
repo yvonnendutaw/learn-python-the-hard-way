@@ -1,8 +1,11 @@
 # Here's some new strange stuff, remember type it exactly.
 days = "Mon Tue Wed Thu Fri Sat Sun"
+#used to make sure new lines are printed out after every month
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 print "Here are the days: ", days
 print "Here are the months: ", months
+
+#used to print out a huge chunk of words
 print """
 There's something going on here.
 With the three double- quotes.
