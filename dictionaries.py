@@ -27,3 +27,6 @@ print super_villains.keys()
 
 #prints all values without keys
 print super_villains.values()
+
+#prints all keys without values
+print super_villains.keys()
